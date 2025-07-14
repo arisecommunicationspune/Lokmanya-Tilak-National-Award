@@ -1,0 +1,30 @@
+.marathi-heading{
+    font-size: 2rem;
+        font-weight: 700;
+        line-height: 130%;
+        text-transform: uppercase
+}
+
+@media (min-width: 768px) {
+    .marathi-heading{
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .marathi-heading{
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .marathi-heading{
+        font-size: 4.5rem;
+    }
+}
+
+@media (min-width: 1600px) {
+    .marathi-heading{
+        font-size: 5rem;
+    }
+}

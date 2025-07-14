@@ -1,0 +1,51 @@
+.brands-area {
+ background-color: #000;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  overflow: hidden;
+}
+
+.brand-marquee {
+  overflow: hidden;
+  position: relative;
+}
+
+.brand-track {
+  display: flex;
+  gap: 3rem; /* spacing between logos */
+  width: max-content;
+  animation: scroll-left 20s linear infinite;
+}
+
+.brand-logo {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.brand-logo img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .brand-logo img {
+    height: 60px; /* larger logo size for larger screens */
+  }
+}
+
+@media (min-width: 992px) {
+  .brand-logo img {
+    height: 70px; /* larger logo size for larger screens */
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
