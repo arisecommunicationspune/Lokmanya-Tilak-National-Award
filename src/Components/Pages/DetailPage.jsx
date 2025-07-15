@@ -6,6 +6,7 @@ import Footer from '../Footer';
 import NewsLetter from '../NewsLetter';
 import PageBanner from '../PageBanner';
 import BreadCrumbs from './BreadCrumbs';
+import DetailPage2 from './DetailPage2';
 
 function DetailPage() {
   const { id } = useParams();
@@ -68,6 +69,7 @@ function DetailPage() {
         </div>
       </div>
     </div>
+    <DetailPage2/>
     <NewsLetter />
     <Footer />
     </>

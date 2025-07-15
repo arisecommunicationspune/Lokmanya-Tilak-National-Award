@@ -9,7 +9,7 @@ const HistoryDetails = () => {
           {" "}<span></span>  
           <span>  </span>
           <br />
-          Timeline of Lokmanya Tilak’s Life and Work
+         Establishment and Purpose of the Lokmanya Tilak National Award
         </h1>
       </div>
 
@@ -18,27 +18,11 @@ const HistoryDetails = () => {
       <div className="flex flex-col lg:flex-row item-stretch -mx-4">
         <div className="w-full lg:w-4/12 px-4 mb-8 lg:mb-0">
           <h3 className="text-xl uppercase font-bold xl-pl-120 text-gray-600 mb-2">
-            Lokmanya Tilak – A Pioneer of Indian Nationalism
+            Lokmanya Tilak – Purpose & Legacy
           </h3>
           <p className="para-text  xl-pl-120">
-            Lokmanya Bal Gangadhar Tilak (1856–1920) was a towering figure in
-            India’s freedom struggle — a scholar, journalist, philosopher, and
-            one of the first leaders to demand full independence from British
-            rule. Born in Ratnagiri, Maharashtra, Tilak was a brilliant student
-            and a passionate advocate for education and self-reliance. He
-            co-founded the Deccan Education Society and used newspapers like
-            Kesari (Marathi) and The Mahratta (English) to awaken political
-            consciousness among Indians. Tilak was among the earliest architects
-            of Swadeshi and Swaraj, long before they became mass movements. His
-            powerful slogan, “Swaraj is my birthright, and I shall have it,”
-            became the battle cry for a generation. He believed that freedom was
-            not given, but seized through unity, courage, and knowledge. He also
-            revived Indian cultural identity by promoting festivals like Ganesh
-            Chaturthi and Shiv Jayanti, using them as platforms to unite people
-            and spread nationalist thought. Though often labeled as a “radical”
-            by the British, Tilak's vision laid the groundwork for future
-            leaders like Gandhi and Nehru. He passed away in 1920, but his
-            legacy continues to inspire the nation.
+           After the establishment of the grand Tilak Smarak Mandir in honour of the great patriot Lokmanya Bal Gangadhar Tilak, his grandson, the distinguished Chairman of the Maharashtra Legislative Council, Shri Jayantrao Tilak, envisioned an annual national award to further immortalise the ideals and legacy of his grandfather. His vision was to recognise individuals who have served the nation selflessly, particularly in the social and political spheres, placing national service above personal comfort or gain. It was decided that the “Lokmanya Tilak National Award” would be conferred every year on 1st August, marking the death anniversary of Lokmanya Tilak. The award was formally instituted on 1st August 1983.
+           In the inaugural award ceremony, Shri Jayantrao Tilak explained the foundation and purpose of the award. The Trust had published seven comprehensive volumes of Lokmanya Tilak’s writings. After covering the cost of printing and other expenses, approximately one and a half lakh rupees remained. The interest generated from this fund would be used to present an annual award of ten thousand rupees. 
           </p>
         </div>
 
@@ -52,25 +36,11 @@ const HistoryDetails = () => {
 
         <div className="w-full lg:w-4/12 px-4 mb-8 lg:mb-0">
           <h3 className="text-xl uppercase xl-pr-120 font-bold text-gray-600 mb-2">
-            Early Life, Education & Social Reform
+            Honouring the Spirit of National Service
           </h3>
           <p className="para-text  xl-pr-120">
-            Bal Gangadhar Tilak was born on July 23, 1856, in Ratnagiri,
-            Maharashtra, into a middle-class Chitpavan Brahmin family. His
-            father, Gangadhar Tilak, was a respected Sanskrit scholar and
-            schoolteacher who deeply influenced young Tilak’s early learning.
-            After his father’s untimely death, Tilak moved to Pune, where he
-            pursued his higher education. He graduated with a Bachelor’s degree
-            in Mathematics from Deccan College in 1877 and later obtained a Law
-            degree from Government Law College, Bombay in 1879. Even as a
-            student, Tilak displayed a fierce spirit of nationalism, integrity,
-            and resistance to injustice — qualities that would shape his future
-            role as a national leader. Deeply dissatisfied with the colonial
-            education system, which he believed distanced Indians from their own
-            heritage, Tilak became a pioneer of nationalist education. In 1884,
-            he co-founded the Deccan Education Society along with Gopal Ganesh
-            Agarkar and Vishnu Shastri Chiplunkar, with the vision of empowering
-            Indian youth through a blend of modern education and cultural pride.
+          The intention was to honour individuals demonstrating a persistent commitment to the social and political upliftment of the country, reflecting Lokmanya Tilak’s dedication to the cause of national service. This vision was formally articulated in the award ceremony held on 1st August 1983 and reported in the Daily Kesari dated 2nd August 1983.
+          As the award gained prominence over the years, there was a need to widen its scope to align with the evolving values and aspirations of modern India. With its diverse traditions and vibrant democratic fabric, India stands on the pillars of many ideals once championed by Lokmanya Tilak. The foundation of India’s independence movement was shaped not only by the principles of Swadeshi, Boycott, National Education, and Swaraj but also by a constellation of values embodied in Lokmanya Tilak’s life—principles such as Swadharma, Modernity, Morality, Self-Reliance, Sacrifice, Philanthropy, Compassion, Nationalism, Agricultural Reform, Scientific Temperament, and Commitment to the Public Good.
           </p>
         </div>
       </div>
@@ -79,27 +49,12 @@ const HistoryDetails = () => {
       <div className="flex  -mx-4">
         <div className="w-full lg:w-4/12 px-4 mb-8 lg:mb-0">
           <h3 className="text-xl uppercase font-bold text-gray-600 mb-2">
-            Lokmanya Tilak – A Pioneer of Indian Nationalism
+            Expansion and Legacy of the Lokmanya Tilak National Award
           </h3>
           <p className="para-text">
-            Lokmanya Bal Gangadhar Tilak (1856–1920) was a towering figure in
-            India’s freedom struggle — a scholar, journalist, philosopher, and
-            one of the first leaders to demand full independence from British
-            rule. Born in Ratnagiri, Maharashtra, Tilak was a brilliant student
-            and a passionate advocate for education and self-reliance. He
-            co-founded the Deccan Education Society and used newspapers like
-            Kesari (Marathi) and The Mahratta (English) to awaken political
-            consciousness among Indians. Tilak was among the earliest architects
-            of Swadeshi and Swaraj, long before they became mass movements. His
-            powerful slogan, “Swaraj is my birthright, and I shall have it,”
-            became the battle cry for a generation. He believed that freedom was
-            not given, but seized through unity, courage, and knowledge. He also
-            revived Indian cultural identity by promoting festivals like Ganesh
-            Chaturthi and Shiv Jayanti, using them as platforms to unite people
-            and spread nationalist thought. Though often labeled as a “radical”
-            by the British, Tilak's vision laid the groundwork for future
-            leaders like Gandhi and Nehru. He passed away in 1920, but his
-            legacy continues to inspire the nation.
+          Recognising this, Dr. Deepak J. Tilak, great-grandson of Lokmanya Bal Gangadhar Tilak and son of Shri Jayantrao Tilak, expanded the criteria for the award. Under his stewardship, the award began to honour individuals who have contributed significantly to the nation through their work, reflecting the ideals and vision of Lokmanya Tilak. The trust honours individuals who have helped to create a space for India on the global map through their contribution in the fields of social service, education, literature, science, ethics, technology, research and development/ scientific development, and national development. In honouring such individuals, the award celebrates not just past achievements but also the ongoing journey of nation-building inspired by Lokmanya Tilak’s legacy. <br />
+
+          The Lokmanya Tilak National Award today stands as a prestigious recognition of exemplary service to the nation, deeply rooted in the noble ideals of one of India’s foremost freedom fighters and visionaries. It continues to inspire generations by acknowledging those who, like Lokmanya Tilak, dedicate their lives to the greater cause of humanity, patriotism, and social transformation.
           </p>
         </div>
 
