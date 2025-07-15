@@ -7,6 +7,8 @@ import AboutDetail from "../Pages/AboutDetail";
 import Footer from "../Footer";
 import Team from "../Team";
 import Newsletter from "../NewsLetter";
+import DisclaimerPopup from "../Pages/DisclaimerPopup";
+import DetailPage2 from "../Pages/DetailPage2";
 
 function Home() {
   useEffect(() => {
@@ -14,6 +16,7 @@ function Home() {
   }, []);
   return (
     <>
+    <DisclaimerPopup/>
       <Header />
       <Banner />
       {/* <Brands /> */}
