@@ -5,6 +5,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import Footer from '../Footer';
 import NewsLetter from '../NewsLetter';
+import GallerySection from './GallerySection';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -55,6 +56,7 @@ function DetailPage2() {
 
   return (
     <>
+    
       <div className="scroll-container overflow-hidden">
         <div className="card-section min-h-screen px-[100px] py-[50px]" style={{ backgroundColor: "#ffffff", textAlign:"justify"}}>
           {data.map((card) => (
@@ -70,7 +72,7 @@ function DetailPage2() {
                       <h4 className="text-xl  sm:text-2xl font-bold text-gray-600 mb-4">{card.subheading1}</h4>
                       <p className="mb-4 para-text  xl-pl-120">{card.para1}</p>
                       <h4 className="text-xl  sm:text-2xl font-bold text-gray-600 mb-4">{card.subheading2}</h4>
-                      <p className="para-text  xl-pl-120">{card.para2}</p>
+                      <p className="para-text  ">{card.para2}</p>
                     </div>
                     <div className="w-full lg:w-1/2">
                       <img
@@ -85,11 +87,11 @@ function DetailPage2() {
                     {/* 2nd & 3rd card*/}
                     <div className="w-full lg:w-1/2">
                       <h4 className="text-xl  sm:text-2xl font-bold text-gray-600 mb-4">{card.subheading1}</h4>
-                      <p className="mb-4 para-text  xl-pl-120">{card.para1}</p>
+                      <p className="mb-4 para-text  ">{card.para1}</p>
                     </div>
                     <div className="w-full lg:w-1/2">
                       <h4 className="text-xl  sm:text-2xl font-bold text-gray-600 mb-4">{card.subheading2}</h4>
-                      <p className="para-text  xl-pl-120">{card.para2}</p>
+                      <p className="para-text  ">{card.para2}</p>
                     </div>
                   </>
                 )}
@@ -98,6 +100,7 @@ function DetailPage2() {
           ))}
         </div>
       </div>
+     
     </>
   );
 }
