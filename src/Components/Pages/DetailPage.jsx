@@ -7,6 +7,7 @@ import NewsLetter from '../NewsLetter';
 import PageBanner from '../PageBanner';
 import BreadCrumbs from './BreadCrumbs';
 import DetailPage2 from './DetailPage2';
+import GallerySection from './GallerySection';
 
 function DetailPage() {
   const { id } = useParams();
@@ -23,6 +24,7 @@ function DetailPage() {
   return (
     <>
     <Header />
+    {/* <GallerySection/> */}
      {/* <PageBanner title={"Awardees"} pageTitle="Awardees Details"  /> */}
      {/* <BreadCrumbs /> */}
     <div className="container mx-auto px-4 py-10">
@@ -69,6 +71,7 @@ function DetailPage() {
         </div>
       </div>
     </div>
+    
     <DetailPage2/>
     <NewsLetter />
     <Footer />
