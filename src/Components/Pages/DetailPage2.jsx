@@ -36,23 +36,28 @@ function DetailPage2() {
   ];
 
   useGSAP(() => {
-    const t1 = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".card-section",
-        start: "top top",
-        end: "bottom top",
-        pin: true,
-        scrub: 1,
-        ease: "linear",
-      },
-    });
+  const t1 = gsap.timeline({
+    scrollTrigger: {
+      id: "detailScroll",
+      trigger: ".card-section",
+      start: "top top",
+      end: "bottom top",
+      pin: true,
+      scrub: 1,
+    },
+  });
 
-    t1.to(".card", {
-      paddingTop: 40,
-      height: 20,
-      stagger: 0.5,
-    });
-  }, []);
+  t1.to(".card", {
+    paddingTop: 40,
+    height: 20,
+    stagger: 0.5,
+  });
+
+  return () => {
+    ScrollTrigger.getById("detailScroll")?.kill();
+  };
+}, []);
+
 
   return (
     <>

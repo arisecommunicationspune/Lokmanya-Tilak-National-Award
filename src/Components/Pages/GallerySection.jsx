@@ -26,48 +26,64 @@ const GallerySection = () => {
   const containerRef = useRef(null);
   const sliderRef = useRef(null);
 
-  useEffect(() => {
-    const sections = gsap.utils.toArray('.panel');
-    const totalPanels = sections.length;
+useEffect(() => {
+  const ctx = gsap.context(() => {
+    const container = containerRef.current;
+    const slider = sliderRef.current;
 
-    gsap.to(sliderRef.current, {
-      x: () => `-${(totalPanels - 1) * window.innerWidth}`,
+    const scrollWidth = slider.scrollWidth - window.innerWidth;
+
+    gsap.set(slider, { x: 0 }); // reset transform
+
+    gsap.to(slider, {
+      x: -scrollWidth,
       ease: 'none',
+      force3D: true,
       scrollTrigger: {
-        trigger: containerRef.current,
+        trigger: container,
         start: 'top top',
-        end: () => `+=${window.innerWidth * totalPanels}`,
-        scrub: 1.5,
+        end: `+=${scrollWidth}`,
+        scrub: 0.5,
         pin: true,
         anticipatePin: 1,
+        id: 'galleryScroll',
       },
     });
+  }, containerRef);
 
-    return () => {
-      ScrollTrigger.getAll().forEach(trigger => trigger.kill());
-    };
-  }, []);
+  return () => ctx.revert();
+}, []);
+
+
 
   return (
-    <>
-      {/* Horizontal Scroll Section */}
-      <section ref={containerRef} className="w-full h-screen overflow-hidden bg-gray-100 bg-white">
-        <div ref={sliderRef} className="flex w-max h-full mt-[70px]">
-          {sliderData.map((item, index) => (
-            <div
-              key={index}
-              className="panel w-screen h-full flex-shrink-0 flex items-center justify-center p-4 "
-            >
-              <img
-                src={item.image}
-                alt={`Slide ${index + 1}`}
-                className="h-full object-cover shadow-lg"
-              />
-            </div>
-          ))}
-        </div>
-      </section>
-    </>
+    <section
+      ref={containerRef}
+      className="relative w-full h-screen overflow-hidden bg-body"
+      style={{ margin: 0, padding: 0 }}
+    >
+      <div
+        ref={sliderRef}
+        className="flex h-full w-max"
+        style={{ marginTop: '20px' }}
+      >
+        {sliderData.map((item, index) => (
+          <div
+            key={index}
+            className="panel w-screen h-full flex-shrink-0 flex items-center justify-center p-4"
+          >
+            <img
+              src={item.image}
+              alt={`Slide ${index + 1}`}
+              className="h-50 object-cover shadow-lg"
+            />
+          </div>
+          
+        ))} <div style={{ width: '100px' }}></div>
+      </div>
+     
+
+    </section>
   );
 };
 
