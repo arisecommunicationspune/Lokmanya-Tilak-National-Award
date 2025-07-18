@@ -60,6 +60,12 @@ useEffect(() => {
                         Events
                       </Link>
                     </li>
+
+                      <li>
+                      <Link to={"/message"}>
+                       Message
+                      </Link>
+                    </li>
                     
                     <li>
                       <Link to={"/contacts"}>

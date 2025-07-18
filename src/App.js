@@ -18,6 +18,7 @@ import "swiper/css";
 import "aos/dist/aos.css"
 import useLenis from "./hooks/useLenis"; // Import your custom hook
 import ScrollToTop from "./hooks/ScrollToTop"; // Import the ScrollToTop component
+import Message from "./Components/Pages/Message";
 
 
 function App() {
@@ -78,6 +79,11 @@ function App() {
             path="/single-blog"
             element={<SingleBlog />}
           />
+             <Route
+            path="/message"
+            element={<Message />}
+          />
+
           <Route
             path="/contacts"
             element={<ContactUs />}

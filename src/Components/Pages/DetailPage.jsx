@@ -8,6 +8,7 @@ import PageBanner from '../PageBanner';
 import BreadCrumbs from './BreadCrumbs';
 import DetailPage2 from './DetailPage2';
 import GallerySection from './GallerySection';
+import Message from './Message';
 
 function DetailPage() {
   const { id } = useParams();

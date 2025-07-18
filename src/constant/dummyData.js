@@ -74,6 +74,7 @@ export const breadCrumbItems = [
   {id:"Event" , label: "Upcoming Events" },
   {id:"History" , label: "History of Lokmanya Tilak" },
   {id:"Awardees" , label: "Recipients of Lokmanya Tilak Award " },
+  {id:"Message" , label: " Message from Dr. Rohit Deepak Tilak" },
   {id:"Contact" , label: "Contact Us" }
 ];
 
