@@ -25,7 +25,7 @@ function DetailPage() {
   return (
     <>
     <Header />
-    {/* <GallerySection/> */}
+     
      {/* <PageBanner title={"Awardees"} pageTitle="Awardees Details"  /> */}
      {/* <BreadCrumbs /> */}
     <div className="container mx-auto px-4 py-10">
@@ -36,9 +36,7 @@ function DetailPage() {
       </div>
       <hr className="border-t-2 border-gray-300 line  mb-10" />
       <div className="flex flex-col lg:flex-row -mx-4 mb-10">
-        <div className="w-full lg:w-6/12 px-4">
-          
-        </div>
+        
         <div className="w-full lg:w-6/12 px-4 mb-8 lg:mb-0">
           <h3 className="text-xl  sm:text-2xl font-bold text-gray-600 mb-4">
             TAILORED EXPERTS MENTORING
@@ -49,20 +47,20 @@ function DetailPage() {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row -mx-4">
+      {/* <div className="flex flex-col lg:flex-row -mx-4">
         <div className="w-full lg:w-6/12 px-4 mb-8 lg:mb-0">
           <img
             src={item.image}
-            alt="Mentor"
+            alt={item.altText}
             className="w-full -mt-100 h-auto rounded shadow-md"
           />
         </div>
         <div className="w-full lg:w-6/12 px-4" />
-      </div>
+      </div> */}
 
       <div className="flex flex-col lg:flex-row -mx-4 mt-10">
-        <div className="w-full lg:w-6/12 px-4" />
-        <div className="w-full -mt-100 lg:w-6/12 px-4 mb-8 lg:mb-0">
+       
+        <div className="w-full  lg:w-6/12 px-4 mb-8 lg:mb-0">
           <h3 className="text-xl sm:text-2xl font-bold text-gray-600 mb-4">
             TAILORED EXPERTS MENTORING
           </h3>
@@ -72,8 +70,13 @@ function DetailPage() {
         </div>
       </div>
     </div>
-
-    <DetailPage2/>
+    <section id="gallery-section">
+    <GallerySection />
+  </section> 
+    
+       {/* <section id="detail-section">
+    <DetailPage2 />
+       </section>     */}
     <NewsLetter />
     <Footer />
     </>
