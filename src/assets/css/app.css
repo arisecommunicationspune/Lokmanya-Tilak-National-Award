@@ -6510,3 +6510,37 @@ height: 100vh;
 .mt-\[70px\] {
   margin-top: 70px;
 }
+
+/* ---------Message----------------- */
+
+.message-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+  
+}
+.image-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.profile-img,
+.legacy-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.message-content p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.signature {
+  margin-top: 2rem;
+  font-style: italic;
+  text-align: right;
+}

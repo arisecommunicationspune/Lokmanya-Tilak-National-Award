@@ -1,5 +1,5 @@
 import React from 'react';
-import icon1 from "../../assets/images/nominee/Dr. Cyrus S. Poonawalla.jpg";
+import img1 from "../../assets/images/nominee/Dr. Cyrus S. Poonawalla.jpg";
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
@@ -13,7 +13,7 @@ function DetailPage2() {
   const data = [
     {
       id: 1,
-      icon: icon1,
+      image: img1,
       subheading1: "Social Reformist: Sridhar Mahadev Joshi - A Life of Integrity, Struggle, and Social Commitment",
       para1: "Sridhar Mahadev Joshi, widely revered as S.M. Joshi, was a towering figure in Maharashtra’s socio-political background — a dedicated socialist, labour union leader, freedom fighter, and champion of justice. Born on 12th November 1904 in Junnar, Pune, into a humble middle-class family, Joshi faced adversity early in life, having lost his father before completing his primary education. Undeterred, he pursued higher studies and earned his B.A. from Fergusson College, Pune, in 1929, followed by an LL.B. in 1934.",
       subheading2: "Participated in Salt March:",
@@ -76,7 +76,7 @@ function DetailPage2() {
                     </div>
                     <div className="w-full lg:w-1/2">
                       <img
-                        src={card.icon}
+                        src={card.image}
                         alt="icon"
                         className="w-full h-64 object-cover rounded-md"
                       />
