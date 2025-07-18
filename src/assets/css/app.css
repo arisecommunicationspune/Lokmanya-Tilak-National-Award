@@ -2466,6 +2466,9 @@ ul ul > li.menu-item-has-children:hover > a:after {
 .h-full {
   height: 100%;
 }
+.h-50 {
+  height: 80%;
+}
 
 .h-10 {
   height: 2.5rem;
@@ -3560,6 +3563,10 @@ ul ul > li.menu-item-has-children:hover > a:after {
 .bg-brown {
   --tw-bg-opacity: 1;
   background-color: #d5a350;
+}
+.bg-body {
+  --tw-bg-opacity: 1;
+  background-color: #fdfabb;
 }
 
 .bg-secondary {
@@ -6510,3 +6517,4 @@ height: 100vh;
 .mt-\[70px\] {
   margin-top: 70px;
 }
+
