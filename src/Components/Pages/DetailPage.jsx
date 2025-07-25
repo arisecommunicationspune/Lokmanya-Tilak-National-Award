@@ -4,11 +4,8 @@ import { TextData } from '../../constant/TextData';
 import Header from '../Header';
 import Footer from '../Footer';
 import NewsLetter from '../NewsLetter';
-import PageBanner from '../PageBanner';
-import BreadCrumbs from './BreadCrumbs';
-import DetailPage2 from './DetailPage2';
 import GallerySection from './GallerySection';
-import Message from './Message';
+
 
 function DetailPage() {
   const { id } = useParams();
@@ -74,9 +71,7 @@ function DetailPage() {
     <GallerySection />
   </section> 
     
-       {/* <section id="detail-section">
-    <DetailPage2 />
-       </section>     */}
+     
     <NewsLetter />
     <Footer />
     </>
