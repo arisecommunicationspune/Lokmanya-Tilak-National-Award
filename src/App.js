@@ -19,6 +19,7 @@ import "aos/dist/aos.css"
 import useLenis from "./hooks/useLenis"; // Import your custom hook
 import ScrollToTop from "./hooks/ScrollToTop"; // Import the ScrollToTop component
 import Message from "./Components/Pages/Message";
+import GallerySection from "./Components/Pages/GallerySection";
 
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
           <Route path="/DetailPage" element={<DetailPage />} />
           <Route path="/Awardees/:id" element={<DetailPage />} />
           <Route path="/page/:id" element={<BreadCrumbs />} />
+          <Route path="/gallery/:id" element={<GallerySection />} />
 
           <Route
             path="/instructor-two"

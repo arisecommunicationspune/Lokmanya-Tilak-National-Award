@@ -1,60 +1,48 @@
 import React, { useRef, useEffect } from 'react';
+import { useParams } from 'react-router-dom'; // ✅ get id from route
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
-import slide1 from '../../assets/images/nominee/Indira_Gandhi.jpg';
-import slide2 from '../../assets/images/nominee/pranab-mukherjee1.jpg';
-import slide3 from '../../assets/images/nominee/NarendraModi.webp';
-import slide4 from '../../assets/images/nominee/Sudha-murthy.jpg';
-import slide5 from '../../assets/images/nominee/Narayana-Murthy.jpg';
-import slide6 from '../../assets/images/nominee/atal-bihari.webp';
-import slide7 from '../../assets/images/nominee/Sudha-murthy.jpg';
+import { TextData } from '../../constant/TextData';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const sliderData = [
-  { image: slide1 },
-  { image: slide2 },
-  { image: slide3 },
-  { image: slide4 },
-  { image: slide5 },
-  { image: slide6 },
-  { image: slide7 },
-];
-
 const GallerySection = () => {
+  const { id } = useParams(); // ✅ gets id from /gallery/:id
+  const PageID = parseInt(id, 10);
+
   const containerRef = useRef(null);
   const sliderRef = useRef(null);
 
-useEffect(() => {
-  const ctx = gsap.context(() => {
-    const container = containerRef.current;
-    const slider = sliderRef.current;
+  const currentData = TextData.find(item => item.id === PageID);
+  const sliderData = currentData ? currentData.image.map(img => ({ image: img })) : [];
 
-    const scrollWidth = slider.scrollWidth - window.innerWidth;
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      const container = containerRef.current;
+      const slider = sliderRef.current;
 
-    gsap.set(slider, { x: 0 }); // reset transform
+      const scrollWidth = slider.scrollWidth - window.innerWidth;
 
-    gsap.to(slider, {
-      x: -scrollWidth,
-      ease: 'none',
-      force3D: true,
-      scrollTrigger: {
-        trigger: container,
-        start: 'top top',
-        end: `+=${scrollWidth}`,
-        scrub: 0.5,
-        pin: true,
-        anticipatePin: 1,
-        id: 'galleryScroll',
-      },
-    });
-  }, containerRef);
+      gsap.set(slider, { x: 0 });
 
-  return () => ctx.revert();
-}, []);
+      gsap.to(slider, {
+        x: -scrollWidth,
+        ease: 'none',
+        force3D: true,
+        scrollTrigger: {
+          trigger: container,
+          start: 'top top',
+          end: `+=${scrollWidth}`,
+          scrub: 0.5,
+          pin: true,
+          anticipatePin: 1,
+          id: 'galleryScroll',
+        },
+      });
+    }, containerRef);
 
-
+    return () => ctx.revert();
+  }, []);
 
   return (
     <section
@@ -78,11 +66,9 @@ useEffect(() => {
               className="h-50 object-cover shadow-lg"
             />
           </div>
-          
-        ))} <div style={{ width: '100px' }}></div>
+        ))}
+        <div style={{ width: '100px' }}></div>
       </div>
-     
-
     </section>
   );
 };
