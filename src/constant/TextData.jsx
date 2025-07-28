@@ -1,18 +1,109 @@
-import slide1 from '../assets/images/Award/2024/sudha_murty2.jpeg';
-import slide2 from '../assets/images/Award/2024/711A3174.jpg';
-import slide3 from '../assets/images/Award/2024/711A3286.jpg';
-import slide4 from '../assets/images/Award/2024/711A3367.jpg';
+import A2024 from '../assets/images/Award/2024/sudha_murty2.jpeg';
+import B2024 from '../assets/images/Award/2024/711A3174.jpg';
+import C2024 from '../assets/images/Award/2024/711A3286.jpg';
+import D2024 from '../assets/images/Award/2024/711A3367.jpg';
 
-import slide5 from '../assets/images/Award/2023/083A5034.jpg';
-import slide6 from '../assets/images/Award/2023/083A5081.jpg';
-import slide7 from '../assets/images/Award/2023/_K3A0191.jpg';
-import slide8 from '../assets/images/Award/2023/_K3A0192.jpg';
+import A2023 from '../assets/images/Award/2023/083A5034.jpg';
+import B2023 from '../assets/images/Award/2023/083A5081.jpg';
+import C2023 from '../assets/images/Award/2023/_K3A0191.jpg';
+import D2023 from '../assets/images/Award/2023/_K3A0192.jpg';
+
+import A2022 from '../assets/images/Award/2022/img-1.jpeg';
+import C2022 from '../assets/images/Award/2022/img-2.jpg';
+import D2022 from '../assets/images/Award/2022/img-3.jpeg';
+import B2022 from '../assets/images/Award/2022/img-4.jpeg';
+
+import A2021 from '../assets/images/Award/2021/_DSC2429.jpg';
+import C2021 from '../assets/images/Award/2021/_DSC2517.jpg';
+import D2021 from '../assets/images/Award/2021/_DSC2528.jpg';
+import B2021 from '../assets/images/Award/2021/_DSC2556.jpg';
+
+import A2020 from '../assets/images/Award/2020/_DSC1287.jpg';
+import C2020 from '../assets/images/Award/2020/_DSC1765.jpg';
+import D2020 from '../assets/images/Award/2020/_DSC1941.jpg';
+import B2020 from '../assets/images/Award/2020/_DSC1575.jpg';
+
+import A2019 from '../assets/images/Award/2019/baba_kalyani1.jpeg';
+import C2019 from '../assets/images/Award/2019/baba_kalyani2.jpeg';
+import D2019 from '../assets/images/Award/2019/baba_kalyani3.jpeg';
+import B2019 from '../assets/images/Award/2019/baba_kalyani4.jpg';
+
+import A2018 from '../assets/images/Award/2018/IMG_9330.jpg';
+import B2018 from '../assets/images/Award/2018/sivan.jpg';
+import C2018 from '../assets/images/Award/2018/IMG_9331.jpeg';
+
+import A2017 from '../assets/images/Award/2017/acharya_balkrishna.jpg';
+import B2017 from '../assets/images/Award/2017/IMG_9304.jpg';
+
+import A2016 from '../assets/images/Award/2016/img-1.png';
+import B2016 from '../assets/images/Award/2016/img-2.JPG';
+import C2016 from '../assets/images/Award/2016/img-3.JPG';
+
+import A2015 from '../assets/images/Award/2015/subbiah_arunan.jpg';
+import B2015 from '../assets/images/Award/2015/IMG_9297.jpg';
+
+import A2014 from '../assets/images/Award/2014/avinash_chander.jpg';
+import B2014 from '../assets/images/Award/2014/IMG_9253.jpg';
+
+import A2013 from '../assets/images/Award/2013/img-1.jpeg';
+import B2013 from '../assets/images/Award/2013/metro-man-e-sreedharan-gets-lokmanya-tilak-award.webp';
+
+import A2012 from '../assets/images/Award/2012/amate.jpg';
+import B2012 from '../assets/images/Award/2012/amate2.jpg';
+import C2012 from '../assets/images/Award/2012/img-3.jpeg';
+
+import A2011 from '../assets/images/Award/2011/kota_harinarayana.jpg';
+import B2011 from '../assets/images/Award/2011/img-2.jpeg';
+
+import A2010 from '../assets/images/Award/2010/IMG_9273.jpg';
+import B2010 from '../assets/images/Award/2010/sheila_dikshit.jpg';
+
+import A2009 from '../assets/images/Award/2009/IMG_9281.jpg';
+import B2009 from '../assets/images/Award/2009/IMG_9283.jpg';
+import C2009 from '../assets/images/Award/2009/IMG_9282.jpeg';
+
+import A2008 from '../assets/images/Award/2008/IMG_9366.jpg';
+import B2008 from '../assets/images/Award/2008/IMG_9263.jpg';
+
+import A2007 from '../assets/images/Award/2007/IMG_9287.jpeg';
+import B2007 from '../assets/images/Award/2007/Tilak Award.jpg';
+
+import A2006 from '../assets/images/Award/2006/IMG_9266.jpg';
+import B2006 from '../assets/images/Award/2006/madhavan2.jpg';
+
+import A2005 from '../assets/images/Award/2005/IMG_9347.jpeg';
+
+import A2004 from '../assets/images/Award/2004/711A3052.jpg';
+import B2004 from '../assets/images/Award/2004/711A3145.jpg';
+import C2004 from '../assets/images/Award/2004/IMG_9277.jpeg';
+
+import A2003 from '../assets/images/Award/2003/ramoji_rao.jpg';
+import B2003 from '../assets/images/Award/2003/ramoji_rao2.jpg';
+import C2003 from '../assets/images/Award/2003/IMG_9259.jpeg';
+
+import A2002 from '../assets/images/Award/2002/verghese.jpg';
+import B2002 from '../assets/images/Award/2002/IMG_9268.jpg';
+import C2002 from '../assets/images/Award/2002/IMG_9270.jpeg';
+
+import A2001 from '../assets/images/Award/2001/swaminathan.jpg';
+import B2001 from '../assets/images/Award/2001/IMG_9284.jpeg';
+
+import A2000 from '../assets/images/Award/2000/IMG_9307.jpeg';
+
+import A1999 from '../assets/images/Award/1999/IMG_9275.jpeg';
+import B1999 from '../assets/images/Award/1999/IMG_9276.jpeg';
+
+import A1998 from '../assets/images/Award/1998/chidambaram.jpg';
+import B1998 from '../assets/images/Award/1998/IMG_9338.jpeg';
+
+import A1997 from '../assets/images/Award/1997/IMG_9254.jpeg';
+
 
 export const TextData = [
   {
     id: 42,
     head: "Smt. Sudha Murty Received Lokmanya Tilak National Award in 2024",
-    image: [slide1, slide2, slide3, slide4],
+    image: [A2024, B2024, C2024, D2024],
     description:
       "Author, and Rajya Sabha member Sudha Murty is set to be honored with the Lokmanya Tilak National Award by the Lokmanya Tilak Memorial Trust. The award ceremony will take place on August 1 in New Delhi, commemorating the 104th death anniversary of Lokmanya Tilak.Murty has made significant contributions to rural development, literature, and the social sector, aligning with Lokmanya Tilak's principles of self-reliance. Sudha Murty, co-founder of the Infosys Foundation, has been instrumental in promoting various developmental activities, particularly in rural areas. Her literary work in Marathi, Kannada, and English has raised social awareness.",
     description2:
@@ -20,7 +111,7 @@ export const TextData = [
   },
   {
     id: 41,
-    image: [slide5, slide7, slide6, slide8],
+    image: [A2023, B2023, C2023, D2023],
     head:
       " Shri. Narendra Damodardas Modi Received Lokmanya Tilak National Award in 2023",
     description:
@@ -30,7 +121,7 @@ export const TextData = [
   },
   {
     id: 40,
-    image: "/assets/Images/necklace/necklace-5.jpg",
+    image:[A2022 , B2022 , C2022 , D2022],
     head: " Dr. Tessy Thomas Received Lokmanya Tilak National Award in 2022",
     description:
       "Dr. Tessy Thomas is a renowned Indian scientist and aerospace engineer, popularly known as India’s “Missile Woman” for her pioneering work in the country’s missile development programs. She played a key role as the Project Director for the Agni-4 and Agni-5 missile systems under the Defence Research and Development Organisation (DRDO), where she led the successful development and flight tests of these long-range strategic missiles. As of now, she serves as the Director General (Aeronautical Systems) at DRDO, contributing significantly to India's defense capabilities and technological self-reliance.",
@@ -39,7 +130,7 @@ export const TextData = [
   },
   {
     id: 39,
-    image: "/assets/Images/necklace/necklace-5.jpg",
+    image: [A2021, B2021, C2021, D2021],
     head:
       "Dr. Cyrus S. Poonawalla Received Lokmanya Tilak National Award in 2021",
     description:
@@ -49,7 +140,7 @@ export const TextData = [
   },
   {
     id: 38,
-    image: "/assets/Images/necklace/necklace-5.jpg",
+    image: [A2020, B2020, C2020, D2020],
     head:
       " Shri. Sonam Wangchuk Received Lokmanya Tilak National Award in 2020",
     description:
@@ -59,7 +150,7 @@ export const TextData = [
   },
   {
     id: 37,
-    image: "/assets/Images/necklace/necklace-6.jpg",
+    image: [A2019, B2019, C2019, D2019],
     head: " Shri.Baba Kalyani Received Lokmanya Tilak National Award in 2019",
     description:
       "Shri. Baba Kalyani was awarded the Lokmanya Tilak National Award in 2019 for his invaluable contribution to promoting the concept of 'swadeshi' and for his leadership in making Bharat Forge a globally recognized 'Made in India' brand. The award recognized his role in advancing India's manufacturing sector and promoting self-reliance within the country.",
@@ -69,7 +160,7 @@ export const TextData = [
   {
     id: 36,
     head: " Dr. K. Sivan Received Lokmanya Tilak National Award in 2018",
-    image: "/assets/Images/necklace/necklace-7.jpg",
+    image: [A2018, B2018, C2018],
     description:
       "Dr. K. Sivan, widely known as the 'Rocket Man of India', is a distinguished aerospace engineer and former Chairman of ISRO (Indian Space Research Organisation). He has made exceptional contributions to India’s space program, particularly in the development of launch vehicle technology and mission planning. Under his leadership, ISRO achieved significant milestones, including the Chandrayaan-2 lunar mission, and advanced India's standing in the global space community. His dedication and innovative approach have played a vital role in enhancing the nation’s space capabilities.",
     description2:
@@ -79,7 +170,7 @@ export const TextData = [
     id: 35,
     head:
       " Shri. Acharya Balkrishna Received Lokmanya Tilak National Award in 2017",
-    image: "/assets/Images/necklace/necklace-8.jpg",
+    image:[A2017, B2017],
     description:
       "Acharya Balkrishna is a renowned scholar, Ayurveda expert, and entrepreneur who has played a key role in reviving and promoting traditional Indian systems of medicine and wellness. He co-founded the Divya Yoga Mandir Trust in 1995 along with Swami Ramdev and Acharya Karamveer, followed by the Patanjali Yogpeeth Trust in 2005. In 2006, he helped establish Patanjali Ayurved, a major Indian FMCG company that focuses on producing herbal, ayurvedic, and organic products. Though Swami Ramdev is the public face of the brand, Balkrishna owns 94% of the company and has been instrumental in its remarkable growth. In 2025, he also founded the Patanjali Organic Research Institute to promote organic farming across India.",
     description2:
@@ -89,7 +180,7 @@ export const TextData = [
     id: 34,
     head:
       " Shri. Sharadchandra Pawar Received Lokmanya Tilak National Award in 2016",
-    image: "/assets/Images/necklace/necklace-9.jpg",
+    image: [A2016, B2016, C2016],
     description:
       "Sharad Pawar is a veteran Indian politician and the founder of the Nationalist Congress Party (NCP). With a political career spanning over five decades, he has served in various key roles, including Chief Minister of Maharashtra and Union Minister of Agriculture. Known for his leadership, coalition-building skills, and focus on rural and agrarian development, he has been a strong advocate for farmers' welfare and the cooperative movement. He has also contributed to education and social development through various institutions in Maharashtra.",
     description2:
@@ -98,7 +189,7 @@ export const TextData = [
   {
     id: 33,
     head: " Dr. Subbiah Arunan Received Lokmanya Tilak National Award in 2015",
-    image: "/assets/Images/necklace/necklace-10.jpg",
+    image:[A2015, B2015],
     description:
       "Dr. Subbiah Arunan is a distinguished Indian scientist known for his pivotal role in India’s space exploration programs. He served as the Project Director of the Mars Orbiter Mission (MOM)—India’s first interplanetary mission—and also contributed as the Associate Project Director of Chandrayaan, India’s lunar mission. His leadership and technical expertise were crucial in making India the first Asian nation to reach Mars orbit and the first in the world to do so in its maiden attempt, earning global recognition for ISRO.",
     description2:
@@ -107,7 +198,7 @@ export const TextData = [
   {
     id: 32,
     head: "Dr. Avinash Chander Received Lokmanya Tilak National Award in 2014",
-    image: "/assets/Images/necklace/necklace-1.jpg",
+    image: [A2014, B2014],
     description:
       "Dr. Avinash Chander is one of India’s most distinguished missile technologists and defense scientists, with a career spanning over four decades at the Defence Research and Development Organisation (DRDO). A graduate of IIT Delhi and holder of Master's and Ph.D. degrees from JNTU Hyderabad, he rose through the ranks to become the Scientific Adviser to the Raksha Mantri, Secretary of the Department of Defence R&D, and Director General of DRDO. Dr. Chander was the visionary behind India's Agni missile program, including the development of Agni-V, a 5000-km range Intercontinental Ballistic Missile (ICBM), placing India among the top nations with advanced strategic capabilities.",
     description2:
@@ -116,7 +207,7 @@ export const TextData = [
   {
     id: 31,
     head: "Dr. E. Sreedharan Received Lokmanya Tilak National Award in 2013",
-    image: "/assets/Images/necklace/necklace-2.jpg",
+    image: [A2013, B2013],
     description:
       "Dr. E. Sreedharan, popularly known as the “Metro Man of India,” is a celebrated civil engineer renowned for revolutionizing India's public transportation. He spearheaded the construction of the Delhi Metro as Managing Director of DMRC from 1995 to 2012, delivering projects on time, within budget, and with high efficiency. Earlier, he was instrumental in the completion of the Konkan Railway, among other key infrastructure initiatives. His leadership is marked by an unwavering commitment to integrity, punctuality, and professionalism, setting a new benchmark for public infrastructure projects in India .",
     description2:
@@ -126,7 +217,7 @@ export const TextData = [
     id: 30,
     head:
       " Dr. Prakash and Dr. Vikas Amte Received Lokmanya Tilak National Award in 2012",
-    image: "/assets/Images/necklace/necklace-3.jpg",
+    image: [A2012, B2012, C2012 ],
     description:
       "Dr. Prakash Amte and Dr. Vikas Amte are acclaimed Indian medical professionals and social workers, and the sons of the legendary social reformer Baba Amte. In 1973, Dr. Prakash shifted to Hemalkasa in Gadchiroli, Maharashtra, where he and his wife, Dr. Mandakini Amte, founded the Lok Biradari Prakalp—a holistic tribal development project offering healthcare, education, and a wildlife orphanage to the Madia Gond community . Dr. Vikas plays a key role in continuing their father’s legacy through efforts at Anandwan and the Prakalp. Their commitment to serving marginalized tribal communities and transforming lives through medical care, schooling, and animal conservation has earned them wide acclaim both nationally and internationally",
     description2:
@@ -136,7 +227,7 @@ export const TextData = [
     id: 29,
     head:
       "Dr. Kota Harinarayana Received Lokmanya Tilak National Award in 2011",
-    image: "/assets/Images/necklace/necklace-4.jpg",
+    image:  [A2011, B2011 ],
     description:
       "Dr. Kota Harinarayana is a celebrated aviation and aerospace engineer who has significantly advanced India’s aeronautical capabilities. A graduate of IIT (BHU) Varanasi and holding an M.Tech from IISc, he served as the Programme Director and Chief Designer of India’s Light Combat Aircraft (LCA) Tejas programme at DRDO and HAL. Beyond aviation, he has held notable leadership positions—serving as Vice‑Chancellor of the University of Hyderabad, President of the Aeronautical Society of India, and Chairman of the IIT (BHU) Board of Governors. His contributions span from aircraft design to academic leadership and national research administration .",
     description2:
@@ -144,7 +235,7 @@ export const TextData = [
   },
   {
     id: 28,
-    image: "/assets/Images/necklace/necklace-5.jpg",
+    image: [A2010, B2010 ],
     head: " Smt. Sheila Dikshit Received Lokmanya Tilak National Award in 2010",
     description:
       "Sheila Dikshit (31 March 1938 – 20 July 2019) was a veteran Indian politician from the Indian National Congress and the longest-serving Chief Minister of Delhi, holding office for fifteen years across three consecutive terms (1998–2013) . Known for her integrity and administrative acumen, she ushered in transformative changes in Delhi—implementing CNG conversions for public transport, expanding the Delhi Metro network, upgrading power distribution, constructing flyovers and signal-free corridors, and successfully hosting the 2010 Commonwealth Games",
@@ -155,7 +246,7 @@ export const TextData = [
     id: 27,
     head:
       "Shri. Pranab Mukherjee Received Lokmanya Tilak National Award in 2009",
-    image: "/assets/Images/necklace/necklace-6.jpg",
+    image: [A2009, B2009, C2009 ],
     description:
       "Pranab Mukherjee (11 December 1935 – 31 August 2020) was an eminent Indian statesman who served in a wide array of significant roles over a distinguished five-decade career—from Union Minister across key portfolios like Finance, Defence, and External Affairs, to Leader of both Houses of Parliament, and ultimately as the 13th President of India (2012–2017) . A trusted architect within both the government and the Indian National Congress, he played a pivotal role in shaping India's policy direction and coalition politics, earning a reputation as a skilled negotiator and guardian of democratic stability.",
     description2:
@@ -165,7 +256,7 @@ export const TextData = [
     id: 26,
     head:
       " Shri. Montek Singh Ahluwalia Received Lokmanya Tilak National Award in 2008",
-    image: "/assets/Images/necklace/necklace-7.jpg",
+    image: [A2008, B2008 ],
     description:
       "Shri Montek Singh Ahluwalia was the esteemed Deputy Chairman of India’s Planning Commission (2004–2014), a renowned economist, and a key figure in shaping India’s post-liberalization economy. Educated at St. Stephen’s College and later the University of Oxford, he also served at the World Bank and as Additional Secretary to Prime Minister Rajiv Gandhi. Under his stewardship, India experienced significant economic growth, and he played an influential role in macroeconomic planning, policy reforms, and steering the nation through both boom and crisis phases .",
     description2:
@@ -175,7 +266,7 @@ export const TextData = [
     id: 25,
     head:
       "Dr. A. Sivathanu Pillai Received Lokmanya Tilak National Award in 2007",
-    image: "/assets/Images/necklace/necklace-8.jpg",
+    image: [A2007, B2007 ],
     description:
       "Dr. A. Sivathanu Pillai is a distinguished Indian scientist and missile technologist who has made transformative contributions to India's aerospace and defense sectors. A graduate of Thiagarajar College of Engineering and with a Ph.D. from the University of Pune, he held pivotal roles in both ISRO and DRDO, including Programme Director of the Integrated Guided Missile Development Programme and Chief Controller R&D at DRDO from 1996 to 2014 . He is widely regarded as the “Father of BrahMos Aerospace”, having founded and led the Indo-Russian venture that developed the world’s fastest supersonic cruise missile.He also played an integral part in developing India's first satellite launch vehicles (SLV‑3) and the PSLV configuration.",
     description2:
@@ -185,7 +276,7 @@ export const TextData = [
     id: 24,
     head:
       " Shri. G. Madhavan Nair Received Lokmanya Tilak National Award in 2006",
-    image: "/assets/Images/necklace/necklace-9.jpg",
+    image: [A2006, B2006 ],
     description:
       "Shri G. Madhavan Nair is a renowned Indian space scientist and aerospace engineer. Graduating in 1966 from the University of Kerala, he joined ISRO in 1967, rapidly rising through roles such as Director of the Liquid Propulsion Systems Centre and Vikram Sarabhai Space Centre. As Project Director of PSLV and later Chairman of ISRO (2003–2009), he oversaw landmark missions including Chandrayaan‑1, INSAT, Cartosat, and GSLV—25 successful missions during his leadership . His work significantly advanced India's self-reliance in launch vehicle technology and brought the benefits of space services—like tele-education, telemedicine, and disaster management—to rural communities.",
     description2:
@@ -194,7 +285,7 @@ export const TextData = [
   {
     id: 23,
     head: " Shri. Sam Pitroda Received Lokmanya Tilak National Award in 2005",
-    image: "/assets/Images/necklace/necklace-10.jpg",
+    image: [A2005],
     description:
       "Sam Pitroda (born 16 November 1942 in Odisha) is a pioneering Indian telecom engineer, inventor, and policy advisor best known for founding the Centre for Development of Telematics (C‑DOT) in 1984, which revolutionized India’s telecommunication landscape . A former advisor to Prime Ministers Rajiv Gandhi and Manmohan Singh on Public Information Infrastructure & Innovations, he later headed the National Knowledge Commission and the National Innovation Council.His early work includes inventing an electronic diary in 1975, and he holds advanced degrees in Physics, Electronics, and Electrical Engineering from prestigious institutions.",
     description2:
@@ -204,7 +295,7 @@ export const TextData = [
     id: 22,
     head:
       " Shri.N. R. Narayan Murthy Received Lokmanya Tilak National Award in 2004",
-    image: "/assets/Images/necklace/necklace-1.jpg",
+    image: [A2004, B2004, C2004 ],
     description:
       "Shri N. R. Narayana Murthy is a pioneering Indian technocrat and entrepreneur, best known as the co-founder and former CEO of Infosys, one of India’s leading global IT services companies. With degrees in engineering and a tenure at IIM Ahmedabad and Patni, Murthy led Infosys from its 1981 inception to a major multinational, earning titles like the 'father of the Indian IT sector' and receiving honors including Padma Shri and Padma Vibhushan .",
     description2:
@@ -214,7 +305,7 @@ export const TextData = [
     id: 21,
     head:
       " Shri. Cherukuri Ramoji Rao Received Lokmanya Tilak National Award in 2003",
-    image: "/assets/Images/necklace/necklace-2.jpg",
+    image:[A2003, B2003, C2003 ],
     description:
       "Shri Cherukuri Ramoji Rao (1936–2024) was a legendary Indian media baron, entrepreneur, and film producer. He founded the Ramoji Group, which includes the world’s largest film studio—Ramoji Film City—as well as Eenadu, Andhra Pradesh’s leading newspaper, the ETV television network, Priya Foods, Margadarsi Chit Fund, Dolphin Hotels, Kalanjali, and Ushakiran Movies . His diverse ventures reshaped regional media and entertainment, provided widespread employment, and significantly impacted Telugu culture and industry. ",
     description2:
@@ -224,7 +315,7 @@ export const TextData = [
     id: 20,
     head:
       " Dr. Veerghese Kurien Received Lokmanya Tilak National Award in 2002",
-    image: "/assets/Images/necklace/necklace-3.jpg",
+    image: [A2002, B2002, C2002 ],
     description:
       "Dr. Verghese Kurien (1921–2012) was a visionary dairy engineer and social entrepreneur, popularly known as the “Father of the White Revolution” in India. After graduating in mechanical engineering from Madras University and Michigan State University, he transformed India’s dairy sector by establishing and leading the Kaira District Cooperative Milk Producers’ Union (Amul), and later the National Dairy Development Board (NDDB). Through initiatives like Operation Flood, Kurien’s cooperative model empowered millions of rural farmers, making India the world’s largest milk producer. His innovative buffalo milk processing, successful marketing strategies, and advocacy for cooperative ownership reshaped rural livelihoods and created sustainable livelihoods .",
     description2:
@@ -234,7 +325,7 @@ export const TextData = [
     id: 19,
     head:
       " Prof. M.S. Swaminathan Received Lokmanya Tilak National Award in 2001",
-    image: "/assets/Images/necklace/necklace-4.jpg",
+    image: [A2001, B2001 ],
     description:
       "Prof. M.S. Swaminathan (1925–2023) was a distinguished Indian geneticist and agricultural scientist renowned globally as the 'Father of the Green Revolutio' in India. With advanced degrees—including a Ph.D. from Cambridge—he led initiatives at ICAR, IRRI, and the Planning Commission, pioneering high-yield wheat and rice varieties that transformed India from a food-deficit to a food-surplus nation . His visionary leadership not only alleviated famine and hunger but laid the foundation for sustainable agriculture, emphasizing ecological balance and rural prosperity.",
     description2:
@@ -243,7 +334,7 @@ export const TextData = [
   {
     id: 18,
     head: "Shri Rahul Bajaj Received Lokmanya Tilak National Award in 2000",
-    image: "/assets/Images/necklace/necklace-5.jpg",
+    image: [A2000 ],
     description:
       "Shri Rahul Bajaj (10 June 1938 – 12 February 2022) was a legendary Indian industrialist and philanthropist, best known as the long-time chairman of the Bajaj Group, a prominent conglomerate in sectors like auto, financial services, and more . A graduate of St. Stephen’s College and Harvard Business School, he transformed Bajaj Auto into a household name with the iconic Bajaj Chetak scooter, making two-wheelers accessible to millions and catalyzing mobility across India under his leadership.He also served as President of the Confederation of Indian Industry (CII), chaired Indian Airlines, and was a Rajya Sabha member—roles that reflected his broad influence on India’s industrial, policy, and governance landscape",
     description2:
@@ -252,7 +343,7 @@ export const TextData = [
   {
     id: 17,
     head: "Dr. Vijay P. Bhatkar Received Lokmanya Tilak National Award in 1999",
-    image: "/assets/Images/necklace/necklace-6.jpg",
+    image: [A1999, B1999 ],
     description:
       "Dr. Vijay P. Bhatkar is a pioneering Indian computer scientist and visionary, best known as the mastermind behind India’s PARAM supercomputers and a leader in national ICT initiatives . A Padma Shri and Padma Bhushan awardee, he founded C‑DAC (Centre for Development of Advanced Computing), served as Chancellor of Nalanda University, and directed large-scale digital literacy and multilingual computing programs—pioneering India’s strides in technology and education .",
     description2:
@@ -262,7 +353,7 @@ export const TextData = [
     id: 16,
     head:
       "Dr. Rajagopala Chidambaram Received Lokmanya Tilak National Award in 1998",
-    image: "/assets/Images/necklace/necklace-7.jpg",
+    image: [A1998, B1998 ],
     description:
       "Dr. Rajagopala Chidambaram is a highly distinguished Indian physicist renowned for his pivotal role in the country’s strategic nuclear and scientific landscape. A B.Sc. and Ph.D. graduate from IISc, he joined BARC in 1962, later becoming its Director in 1990 and Chairman of the Atomic Energy Commission from 1993 to 2000. He was a key architect behind India’s nuclear tests—Pokhran-I (1974) and Pokhran-II (1998)—and drove advancements in supercomputing and high-pressure materials research . Subsequently, he served as Principal Scientific Adviser to the Government of India (2002–2018), where he championed initiatives like rural technology action groups (RuTAG), electronic transaction security (SETS), and the National Knowledge Network.",
     description2:
@@ -271,7 +362,7 @@ export const TextData = [
   {
     id: 15,
     head: "Dr. Manmohan Singh Received Lokmanya Tilak National Award in 1997",
-    image: "/assets/Images/necklace/necklace-5.jpg",
+    image: [A1997 ],
     description:
       "Dr. Manmohan Singh (26 September 1932 – 26 December 2024) was an eminent Indian economist and statesman who served as the Finance Minister (1991–1996) and later as the 13th Prime Minister of India (2004–2014). Educated at Cambridge and Oxford, he spearheaded the landmark economic liberalization of 1991, dismantling the License Raj, opening India to global markets, and revitalizing its economy . As Prime Minister, his government introduced transformative policies such as MGNREGA, RTI, and the Indo-US Nuclear Deal, while maintaining ethical governance and sustained growth.",
     description2:

@@ -5,6 +5,7 @@ import Header from '../Header';
 import Footer from '../Footer';
 import NewsLetter from '../NewsLetter';
 import GallerySection from './GallerySection';
+import DetailPage2 from './DetailPage2';
 
 
 function DetailPage() {
@@ -70,7 +71,7 @@ function DetailPage() {
     <section id="gallery-section">
     <GallerySection />
   </section> 
-    
+    <DetailPage2 />
      
     <NewsLetter />
     <Footer />
