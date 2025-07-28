@@ -53,20 +53,23 @@ import RTlogo from "../assets/images/RTlogo.png";
 import About from "../assets/images/nominee/About.jpg";
 
 import jury1 from "../assets/images/Jury/Deepak Tilak.jpg";
-import jury2 from "../assets/images/Jury/sushil-kumar-shinde.png";
+
 import jury3 from "../assets/images/Jury/Rohit_tilak.jpg";
-import jury4 from "../assets/images/Jury/Geetali Tilak.jpg";
-import jury5 from "../assets/images/Jury/dummy-img.jpeg";
-import jury6 from "../assets/images/Jury/dr-pranati-tilak.png";
+import jury4 from "../assets/images/Jury/dr-pranati-tilak.png";
+import jury5 from "../assets/images/Jury/Geetali Tilak.jpg";
+import jury2 from "../assets/images/Jury/sushil-kumar-shinde.png";
+import jury6 from "../assets/images/Jury/dummy-img.jpeg";
+
 import jury7 from "../assets/images/Jury/dummy-img.jpeg";
 
 export const juryData = [
-  { img: jury1, name: "Dr. Deepak J. Tilak" },
-  { img: jury2, name: "Shri. Sushilkumar Shinde" },
+  { img: jury1, name: "Late. Dr. Deepak J. Tilak" },
+ 
   { img: jury3, name: "Dr. Rohit D. Tilak" },
-  { img: jury4, name: "Dr. Geetali Tilak" },
- { img: jury5, name: "Smt.Sarita Sathe" },
-  { img: jury6, name: "Dr. Pranati R. Tilak" },
+    { img: jury4, name: "Dr. Pranati R. Tilak" },
+  { img: jury5, name: "Dr. Geetali Tilak" },
+   { img: jury2, name: "Shri. Sushilkumar Shinde" },
+ { img: jury6, name: "Smt.Sarita Sathe" },
    { img: jury7, name: "Shri. Ramchandra Namjoshi" },
 ];
 
