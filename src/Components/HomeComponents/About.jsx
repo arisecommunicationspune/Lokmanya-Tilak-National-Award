@@ -11,8 +11,8 @@ const About = () => {
           <h4 className="text-3xl md:text-4xl mb-4 max-w-3xl marathi-heading">
            "स्वराज्य हा माझा जन्मसिद्ध हक्क आहे आणि तो मी मिळवणारच !"
           </h4>
-          <p className="text-base max-w-[1112] ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere itaque eaque cumque fuga ullam, dolorum, voluptatum nam numquam quam laboriosam, ratione in commodi optio earum iusto? Iure reiciendis ipsam eveniet?
+          <p className="text-base max-w-75">
+           Lokmanya Tilak’s unwavering spirit ignited India’s freedom movement. This award is a tribute to those who continue his legacy of fearless leadership, national pride, and social reform.
           </p>
         </div>
       </div>

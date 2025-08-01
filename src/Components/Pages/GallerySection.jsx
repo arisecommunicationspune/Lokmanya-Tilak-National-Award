@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useLayoutEffect } from 'react';
 import { useParams } from 'react-router-dom'; // ✅ get id from route
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -16,33 +16,38 @@ const GallerySection = () => {
   const currentData = TextData.find(item => item.id === PageID);
   const sliderData = currentData ? currentData.image.map(img => ({ image: img })) : [];
 
-  useEffect(() => {
-    const ctx = gsap.context(() => {
-      const container = containerRef.current;
-      const slider = sliderRef.current;
+useLayoutEffect(() => {
+  const ctx = gsap.context(() => {
+    const container = containerRef.current;
+    const slider = sliderRef.current;
 
-      const scrollWidth = slider.scrollWidth - window.innerWidth;
+    if (!container || !slider) return;
 
-      gsap.set(slider, { x: 0 });
+    const scrollWidth = slider.scrollWidth - window.innerWidth;
 
-      gsap.to(slider, {
-        x: -scrollWidth,
-        ease: 'none',
-        force3D: true,
-        scrollTrigger: {
-          trigger: container,
-          start: 'top top',
-          end: `+=${scrollWidth}`,
-          scrub: 0.5,
-          pin: true,
-          anticipatePin: 1,
-          id: 'galleryScroll',
-        },
-      });
-    }, containerRef);
+    gsap.set(slider, { x: 0 });
 
-    return () => ctx.revert();
-  }, []);
+    gsap.to(slider, {
+      x: -scrollWidth,
+      ease: 'none',
+      force3D: true,
+      scrollTrigger: {
+        trigger: container,
+        start: 'top top',
+        end: `+=${scrollWidth}`,
+        scrub: 0.5,
+        pin: true,
+        anticipatePin: 1,
+        id: 'galleryScroll',
+      },
+    });
+
+    ScrollTrigger.refresh(); // ✅ now called after setup
+  }, containerRef);
+
+  return () => ctx.revert();
+}, []);
+
 
   return (
     <section

@@ -35,12 +35,16 @@ const ServiceCard = ({ logo, title, year }) => {
         <img src={logo} alt={title} className=" object-cover" />
       </div>
       <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start p-4">
-        <button className="card-btn text-xs px-2 py-1 rounded mb-1">
+        <button className="card-year text-xs px-2 py-1 rounded mb-1">
           Year: {year}
         </button>
+        
         <h5 className="text-white text-sm font-medium">
           {title}
         </h5>
+        <button className="card-btn text-xs px-2 py-1 rounded mb-1">
+          View More
+        </button>
 
         
       </div>
