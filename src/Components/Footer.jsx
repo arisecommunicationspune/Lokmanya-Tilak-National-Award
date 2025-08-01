@@ -16,13 +16,13 @@ const Footer = () => {
 
           </a>
           <p className="text-black text-center max-w-[1112px] mx-auto ">
-            Lorem ipsum amet, consectetur adipiscing elit. Suspendis varius enim eros elementum tristique. Duis cursus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, fugiat consectetur odit error non perferendis facilis dolore quos! Quae sit, suscipit perspiciatis accusantium in ut aperiam voluptas laudantium error. Nihil.
+            The Lokmanya Tilak National Award honors individuals who have made exceptional contributions to nation-building, social upliftment, and the preservation of India’s values. Inspired by the legacy of Lokmanya Tilak, the award stands as a tribute to courage, wisdom, and leadership.
           </p>
           <ul className="flex justify-center space-x-4 pt-8">
             <li>
               <a
                 href="#"
-                className="flex h-12 w-12 items-center justify-center rounded-full bg-black bg-opacity-[0.08] text-2xl text-black hover:bg-brown hover:text-white"
+                className="flex h-12 w-12 items-center justify-center rounded-full bg-black bg-opacity-[0.08] text-2xl text-secondary hover:bg-brown hover:text-white"
               >
                 <iconify-icon icon="bxl:facebook"></iconify-icon>
               </a>
@@ -30,7 +30,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="flex h-12 w-12 items-center justify-center rounded-full bg-black bg-opacity-[0.08] text-2xl text-black transition hover:bg-brown hover:text-white"
+                className="flex h-12 w-12 items-center justify-center rounded-full bg-black bg-opacity-[0.08] text-2xl text-secondary transition hover:bg-brown hover:text-white"
               >
                 <iconify-icon icon="bxl:twitter"></iconify-icon>
               </a>
@@ -38,7 +38,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="flex h-12 w-12 items-center justify-center rounded-full bg-black bg-opacity-[0.08] text-2xl text-black transition hover:bg-brown hover:text-white"
+                className="flex h-12 w-12 items-center justify-center rounded-full bg-black bg-opacity-[0.08] text-2xl text-secondary transition hover:bg-brown hover:text-white"
               >
                 <iconify-icon icon="bxl:linkedin"></iconify-icon>
               </a>
@@ -46,7 +46,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="flex h-12 w-12 items-center justify-center rounded-full bg-black bg-opacity-[0.08] text-2xl text-black transition hover:bg-brown hover:text-white"
+                className="flex h-12 w-12 items-center justify-center rounded-full bg-black bg-opacity-[0.08] text-2xl text-secondary transition hover:bg-brown hover:text-white"
               >
                 <iconify-icon icon="bxl:instagram"></iconify-icon>
               </a>

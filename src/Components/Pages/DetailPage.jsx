@@ -37,7 +37,7 @@ function DetailPage() {
         
         <div className="w-full lg:w-6/12 px-4 mb-8 lg:mb-0">
           <h3 className="text-xl  sm:text-2xl font-bold text-gray-600 mb-4">
-            TAILORED EXPERTS MENTORING
+            Journey of a Changemaker
           </h3>
           <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
             {item.description}
@@ -60,7 +60,7 @@ function DetailPage() {
        
         <div className="w-full  lg:w-6/12 px-4 mb-8 lg:mb-0">
           <h3 className="text-xl sm:text-2xl font-bold text-gray-600 mb-4">
-            TAILORED EXPERTS MENTORING
+            Achievements and Recognition
           </h3>
           <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
             {item.description2}
@@ -69,7 +69,7 @@ function DetailPage() {
       </div>
     </div>
     <section id="gallery-section">
-    <GallerySection />
+    <GallerySection key={id}/>
   </section> 
     <DetailPage2 />
      

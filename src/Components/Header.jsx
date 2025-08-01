@@ -37,7 +37,7 @@ useEffect(() => {
               </Link>
               <div className="flex items-center flex-1">
                 <div className="flex-1 main-menu relative mr-[74px]">
-                  <ul className="menu-active-classNamees">
+                  <ul className="menu-active-classNames text-secondary">
                     <li>
                       <Link to={"/"}>
                         Home

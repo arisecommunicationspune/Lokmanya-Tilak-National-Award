@@ -2746,7 +2746,9 @@ ul ul > li.menu-item-has-children:hover > a:after {
 .max-w-\[337px\] {
   max-width: 337px;
 }
-
+.max-w-991px {
+  max-width: 991px !important;
+}
 .max-w-\[1112px\] {
   max-width: 1112px;
 }
@@ -4773,6 +4775,9 @@ ul ul > li.menu-item-has-children:hover > a:after {
   .footer-pd {
   padding: 2rem 0.5rem;
 }
+.max-w-75 {
+  max-width: 75%;
+}
 }
 
 @media (min-width: 1140px) {
@@ -6174,12 +6179,33 @@ ul ul > li.menu-item-has-children:hover > a:after {
 
 @media (min-width:1600px) {
 .card-btn {
-  background-color: #d5a350; 
-  color: white;
+    background-color: #fdfabb;
+  color : #000;
   padding: 0px 30px;
   font-weight: bold;
-  font-size: 0.875rem; 
+  font-size: 0.9rem; 
   border: none;
+  margin-top: 5px;
+  
+}
+.card-btn:hover {
+background-color: #d5a350; 
+  color: white;
+}
+  
+
+@media (min-width: 1600px) {
+    .card-year {
+        background-color: #1e1c1ca3;
+        color: white;
+        padding: 0px 10px;
+        font-weight: bold;
+        font-size: 0.875rem;
+        border: none;
+          position: absolute;
+            top: 10px;
+            right: 10px;
+    }
 }
 
 .card-txt {
@@ -6211,13 +6237,33 @@ ul ul > li.menu-item-has-children:hover > a:after {
     text-transform: uppercase;
 }
 .card-btn {
-  background-color: #d5a350; 
-  color: white;
+  background-color: #fdfabb;
+  color : #000;
   padding: 0px 20px;
   font-weight: bold;
   font-size: 0.875rem; 
   border: none;
+  margin-top: 5px;;
 }
+
+.card-btn:hover {
+  background-color: #d5a350; 
+  color: white;
+}
+
+    .card-year {
+        background-color: #1e1c1ca3;
+        color: white;
+        padding: 0px 10px;
+        font-weight: bold;
+        font-size: 0.875rem;
+        border: none;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        
+    }
+
 
 .card-txt {
   font-weight: bold;
@@ -6516,4 +6562,11 @@ height: 100vh;
 }
 .mt-\[70px\] {
   margin-top: 70px;
+}
+
+.truncate-10-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
