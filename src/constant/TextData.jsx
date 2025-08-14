@@ -38,7 +38,6 @@ import A2020P from '../assets/images/Award/2020/img-1.jpg';
 import B2020P from '../assets/images/Award/2020/img-2.jpg';
 import C2020P from '../assets/images/Award/2020/img-3.gif';
 
-
 import A2019 from '../assets/images/Award/2019/baba_kalyani1.jpeg';
 import C2019 from '../assets/images/Award/2019/baba_kalyani2.jpeg';
 import D2019 from '../assets/images/Award/2019/baba_kalyani3.jpeg';
