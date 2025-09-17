@@ -16,7 +16,7 @@ function Home() {
   }, []);
   return (
     <>
-    <DisclaimerPopup/>
+  
       <Header />
       <Banner />
       {/* <Brands /> */}

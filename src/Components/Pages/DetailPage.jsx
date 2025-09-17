@@ -39,7 +39,7 @@ function DetailPage() {
           <h3 className="text-xl  sm:text-2xl font-bold text-gray-600 mb-4">
             Journey of a Changemaker
           </h3>
-          <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+          <p className="text-base sm:text-lg text-justify text-gray-700 leading-relaxed">
             {item.description}
           </p>
         </div>
@@ -62,7 +62,7 @@ function DetailPage() {
           <h3 className="text-xl sm:text-2xl font-bold text-gray-600 mb-4">
             Achievements and Recognition
           </h3>
-          <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+          <p className="text-base sm:text-lg text-justify text-gray-700 leading-relaxed">
             {item.description2}
           </p>
         </div>

@@ -21,8 +21,7 @@ const ContactUs = () => {
                 Get In Touch 
               </h4>
               <div>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered.
+               We’d love to hear from you! Whether you have questions, feedback, or would like to collaborate, our team is always ready to connect. 
               </div>
               <ul class=" list-item space-y-6 pt-8">
                 <li class="flex">

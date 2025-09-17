@@ -1,5 +1,5 @@
-import React, { useRef, useLayoutEffect } from 'react';
-import { useParams } from 'react-router-dom'; // ✅ get id from route
+import React, { useRef, useLayoutEffect, useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { TextData } from '../../constant/TextData';
@@ -7,7 +7,7 @@ import { TextData } from '../../constant/TextData';
 gsap.registerPlugin(ScrollTrigger);
 
 const GallerySection = () => {
-  const { id } = useParams(); // ✅ gets id from /gallery/:id
+  const { id } = useParams();
   const PageID = parseInt(id, 10);
 
   const containerRef = useRef(null);
@@ -16,38 +16,42 @@ const GallerySection = () => {
   const currentData = TextData.find(item => item.id === PageID);
   const sliderData = currentData ? currentData.image.map(img => ({ image: img })) : [];
 
-useLayoutEffect(() => {
-  const ctx = gsap.context(() => {
-    const container = containerRef.current;
-    const slider = sliderRef.current;
+  // Track image loading
+  const [imagesLoaded, setImagesLoaded] = useState(0);
 
-    if (!container || !slider) return;
+  useLayoutEffect(() => {
+    if (imagesLoaded !== sliderData.length || sliderData.length === 0) return;
 
-    const scrollWidth = slider.scrollWidth - window.innerWidth;
+    const ctx = gsap.context(() => {
+      const container = containerRef.current;
+      const slider = sliderRef.current;
 
-    gsap.set(slider, { x: 0 });
+      if (!container || !slider) return;
 
-    gsap.to(slider, {
-      x: -scrollWidth,
-      ease: 'none',
-      force3D: true,
-      scrollTrigger: {
-        trigger: container,
-        start: 'top top',
-        end: `+=${scrollWidth}`,
-        scrub: 0.5,
-        pin: true,
-        anticipatePin: 1,
-        id: 'galleryScroll',
-      },
-    });
+      const scrollWidth = slider.scrollWidth - window.innerWidth;
 
-    ScrollTrigger.refresh(); // ✅ now called after setup
-  }, containerRef);
+      gsap.set(slider, { x: 0 });
 
-  return () => ctx.revert();
-}, []);
+      gsap.to(slider, {
+        x: -scrollWidth,
+        ease: 'none',
+        force3D: true,
+        scrollTrigger: {
+          trigger: container,
+          start: 'top top',
+          end: `+=${scrollWidth}`,
+          scrub: 0.5,
+          pin: true,
+          anticipatePin: 1,
+          id: 'galleryScroll',
+        },
+      });
 
+      ScrollTrigger.refresh();
+    }, containerRef);
+
+    return () => ctx.revert();
+  }, [imagesLoaded, sliderData.length]);
 
   return (
     <section
@@ -69,6 +73,7 @@ useLayoutEffect(() => {
               src={item.image}
               alt={`Slide ${index + 1}`}
               className="h-50 object-cover shadow-lg"
+              onLoad={() => setImagesLoaded(count => count + 1)}
             />
           </div>
         ))}

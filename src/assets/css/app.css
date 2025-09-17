@@ -372,6 +372,10 @@ textarea {
   resize: vertical;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 /*
 1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
 2. Set the default placeholder color to the user's configured gray 400 color.
@@ -5751,6 +5755,12 @@ ul ul > li.menu-item-has-children:hover > a:after {
    .lg\:w-45 {
     width: 45%;
   }
+  .lg\:w-60 {
+    width: 60%;
+  }
+   .lg\:w-55 {
+    width: 55%;
+  }
   .lg\:w-10 {
     width: 10%;
   }
@@ -6569,4 +6579,9 @@ height: 100vh;
   -webkit-line-clamp: 10;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.text-footer {
+  --tw-text-opacity: 1;
+    color: rgb(49 0 0);
 }
