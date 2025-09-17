@@ -1,3 +1,12 @@
+import A2025 from '../assets/images/Award/2025/first.jpg';
+import B2025 from '../assets/images/Award/2025/second.jpg';
+import C2025 from '../assets/images/Award/2025/third.jpg';
+import D2025 from '../assets/images/Award/2025/four.jpg';
+import A2025P from '../assets/images/Award/2025/life.jpg';
+import B2025P from '../assets/images/Award/2025/maxresdefault (1).jpg';
+import C2025P from '../assets/images/Award/2025/speech.jpg';
+
+
 import A2024 from '../assets/images/Award/2024/sudha_murty2.jpeg';
 import B2024 from '../assets/images/Award/2024/711A3174.jpg';
 import C2024 from '../assets/images/Award/2024/711A3286.jpg';
@@ -151,15 +160,15 @@ import C2003P from '../assets/images/Award/2003/img-3.jpg';
 import A2002 from '../assets/images/Award/2002/verghese.jpg';
 import B2002 from '../assets/images/Award/2002/IMG_9268.jpg';
 import C2002 from '../assets/images/Award/2002/IMG_9270.jpeg';
-import A2002P from '../assets/images/Award/2002/verghese.jpg';
-import B2002P from '../assets/images/Award/2002/IMG_9268.jpg';
-import C2002P from '../assets/images/Award/2002/IMG_9270.jpeg';
+import A2002P from '../assets/images/Award/2002/Father-of-White-Revolution.png';
+import B2002P from '../assets/images/Award/2002/father-of-white-revolution-in-india-55776ce0.jpeg';
+import C2002P from '../assets/images/Award/2002/469552347_10170232158790716_6347153201567396841_n.jpg';
 
 import A2001 from '../assets/images/Award/2001/swaminathan.jpg';
 import B2001 from '../assets/images/Award/2001/IMG_9284.jpeg';
-import A2001P from '../assets/images/Award/2001/swaminathan.jpg';
-import B2001P from '../assets/images/Award/2001/IMG_9284.jpeg';
-import C2001P from '../assets/images/Award/2001/swaminathan.jpg';
+import A2001P from '../assets/images/Award/2001/AP23271277068272-1695903509.webp';
+import B2001P from '../assets/images/Award/2001/img_431.jpeg';
+import C2001P from '../assets/images/Award/2001/image_750x_65e302ecea1ea.jpg';
 
 import A2000 from '../assets/images/Award/2000/IMG_9307.jpeg';
 import A2000P from '../assets/images/Award/2000/img-1.jpeg';
@@ -179,20 +188,20 @@ import B1998P from '../assets/images/Award/1998/img-2.jpg';
 import C1998P from '../assets/images/Award/1998/img-3.jpg';
 
 import A1997 from '../assets/images/Award/1997/IMG_9254.jpeg';
-import A1997P from '../assets/images/Award/1997/IMG_9254.jpeg';
-import B1997P from '../assets/images/Award/1997/IMG_9254.jpeg';
-import C1997P from '../assets/images/Award/1997/IMG_9254.jpeg';
+import A1997P from '../assets/images/Award/1997/Manmohan-Singh.png';
+import B1997P from '../assets/images/Award/1997/former.avif';
+import C1997P from '../assets/images/Award/1997/large-F89SH16-000785_1200x768.avif';
 
 import A1996 from '../assets/images/Award/1996/IMG_9324.jpg';
 import B1996 from '../assets/images/Award/1996/IMG_9326.jpg';
-import A1996P from '../assets/images/Award/1996/IMG_9324.jpg';
-import B1996P from '../assets/images/Award/1996/IMG_9326.jpg';
-import C1996P from '../assets/images/Award/1996/IMG_9324.jpg';
+import A1996P from '../assets/images/Award/1996/GIz-VmVW8AATUCW.png';
+import B1996P from '../assets/images/Award/1996/21012655_11.jpg';
+import C1996P from '../assets/images/Award/1996/1974-Eresearch-premium-feature.jpg';
 
 import A1995 from '../assets/images/Award/1995/34627.jpg';
-import A1995P from '../assets/images/Award/1995/34627.jpg';
-import B1995P from '../assets/images/Award/1995/34627.jpg';
-import C1995P from '../assets/images/Award/1995/34627.jpg';
+import A1995P from '../assets/images/Award/1995/112439-xudrsntoww-1549538324.jpg';
+import B1995P from '../assets/images/Award/1995/ADRDW.jpg';
+import C1995P from '../assets/images/Award/1995/TNSeshan.jpg';
 
 import A1994 from '../assets/images/Award/1994/IMG_9340.jpeg';
 import B1994 from '../assets/images/Award/1994/IMG_9344.jpeg';
@@ -201,71 +210,95 @@ import B1994P from '../assets/images/Award/1994/2.jpg';
 import C1994P from '../assets/images/Award/1994/3.jpg';
 
 import A1993 from '../assets/images/Award/1993/IMG_9295.jpeg';
-import A1993P from '../assets/images/Award/1993/IMG_9295.jpeg';
-import B1993P from '../assets/images/Award/1993/IMG_9295.jpeg';
-import C1993P from '../assets/images/Award/1993/IMG_9295.jpeg';
+import A1993P from '../assets/images/Award/1993/Shankar_Dayal_Sharma1 (1).jpg';
+import B1993P from '../assets/images/Award/1993/Shankar_Dayal_Sharma2 (1).jpeg';
+import C1993P from '../assets/images/Award/1993/Shankar_Dayal_Sharma3 (1).jpg';
 
 import A1992 from '../assets/images/Award/1992/IMG_9322.jpg';
-import A1992P from '../assets/images/Award/1992/IMG_9322.jpg';
-import B1992P from '../assets/images/Award/1992/IMG_9322.jpg';
-import C1992P from '../assets/images/Award/1992/IMG_9322.jpg';
+import A1992P from '../assets/images/Award/1992/Pandurang_Shastri_Athawale1 (1).jpg';
+import B1992P from '../assets/images/Award/1992/Pandurang_Shastri_Athawale2 (1).jpg';
+import C1992P from '../assets/images/Award/1992/Pandurang_Shastri_Athawale3 (1).jpeg';
 
 import A1991 from '../assets/images/Award/1991/IMG_9311.jpeg';
-import A1991P from '../assets/images/Award/1991/IMG_9311.jpeg';
-import B1991P from '../assets/images/Award/1991/IMG_9311.jpeg';
-import C1991P from '../assets/images/Award/1991/IMG_9311.jpeg';
+import A1991P from '../assets/images/Award/1991/Madhukar_ Deoras1 (1).jpg';
+import B1991P from '../assets/images/Award/1991/Madhukar_Deoras2 (1).jpeg';
+import C1991P from '../assets/images/Award/1991/Madhukar_Deoras3 (1).jpeg';
 
 import A1990 from '../assets/images/Award/1990/IMG_9333.jpeg';
-import A1990P from '../assets/images/Award/1990/IMG_9333.jpeg';
-import B1990P from '../assets/images/Award/1990/IMG_9333.jpeg';
-import C1990P from '../assets/images/Award/1990/IMG_9333.jpeg';
+import A1990P from '../assets/images/Award/1990/madhu-limaye-mathha-lmaya_1682790986.avif';
+import B1990P from '../assets/images/Award/1990/306225.webp';
+import C1990P from '../assets/images/Award/1990/ALBmAouA.jpeg';
 
 import A1989 from '../assets/images/Award/1989/IMG_9271.jpeg';
-import A1989P from '../assets/images/Award/1989/IMG_9271.jpeg';
-import B1989P from '../assets/images/Award/1989/IMG_9271.jpeg';
-import C1989P from '../assets/images/Award/1989/IMG_9271.jpeg';
+import A1989P from '../assets/images/Award/1989/The-gandhi-d_e.webp';
+import B1989P from '../assets/images/Award/1989/64782941.jpg';
+import C1989P from '../assets/images/Award/1989/thequint_2015-12_28d168d2-31d6-4d73-8840-733ec99d6461_GOA MAIN HERO IMAGE.avif';
 
 import A1988 from '../assets/images/Award/1988/IMG_9327.jpeg';
 import B1988 from '../assets/images/Award/1988/IMG_9328.jpeg';
-import A1988P from '../assets/images/Award/1988/IMG_9327.jpeg';
-import B1988P from '../assets/images/Award/1988/IMG_9328.jpeg';
-import C1988P from '../assets/images/Award/1988/IMG_9327.jpeg';
+import A1988P from '../assets/images/Award/1988/Khan_Abdul_Ghaffar_Khan1 (1).jpg';
+import B1988P from '../assets/images/Award/1988/abdul_ghaffar_khan2.jpg';
+import C1988P from '../assets/images/Award/1988/Abdul_Ghaffar_Khan3.jpeg';
 
 import A1987 from '../assets/images/Award/1987/IMG_9336.jpeg';
 import B1987 from '../assets/images/Award/1987/IMG_9337.jpeg';
-import A1987P from '../assets/images/Award/1987/IMG_9336.jpeg';
-import B1987P from '../assets/images/Award/1987/IMG_9337.jpeg';
-import C1987P from '../assets/images/Award/1987/IMG_9336.jpeg';
+import A1987P from '../assets/images/Award/1987/Achyut_Patwardhan1.jpeg';
+import B1987P from '../assets/images/Award/1987/Patwardhan1.avif';
+import C1987P from '../assets/images/Award/1987/images (2).jpeg';
 
 import A1986 from '../assets/images/Award/1986/IMG_9345.jpeg';
 import B1986 from '../assets/images/Award/1986/IMG_9346.jpeg';
-import A1986P from '../assets/images/Award/1986/IMG_9345.jpeg';
-import B1986P from '../assets/images/Award/1986/IMG_9346.jpeg';
-import C1986P from '../assets/images/Award/1986/IMG_9345.jpeg';
+import A1986P from '../assets/images/Award/1986/Shripad_Amrit_Dange (1).jpg';
+import B1986P from '../assets/images/Award/1986/306290.webp';
+import C1986P from '../assets/images/Award/1986/14305.webp';
 
 import A1985 from '../assets/images/Award/1985/IMG_9300.jpeg';
-import A1985P from '../assets/images/Award/1985/IMG_9300.jpeg';
-import B1985P from '../assets/images/Award/1985/IMG_9300.jpeg';
-import C1985P from '../assets/images/Award/1985/IMG_9300.jpeg';
+import A1985P from '../assets/images/Award/1985/Indira_Gandhi1 (1).jpg';
+import B1985P from '../assets/images/Award/1985/Indira_Gandhi2 (1).jpg';
+import C1985P from '../assets/images/Award/1985/Indira_Gandhi3 (1).jpg';
 
 import A1984 from '../assets/images/Award/1984/IMG_9293.jpeg';
-import A1984P from '../assets/images/Award/1984/IMG_9293.jpeg';
-import B1984P from '../assets/images/Award/1984/IMG_9293.jpeg';
-import C1984P from '../assets/images/Award/1984/IMG_9293.jpeg';
+import A1984P from '../assets/images/Award/1984/9 godavari.jpg';
+import B1984P from '../assets/images/Award/1984/FL03GODUTAI.jpg';
+import C1984P from '../assets/images/Award/1984/img-20210814-wa0012.jpg';
 
 import A1983 from '../assets/images/Award/1983/45737.jpg';
-import A1983P from '../assets/images/Award/1983/45737.jpg';
-import B1983P from '../assets/images/Award/1983/45737.jpg';
-import C1983P from '../assets/images/Award/1983/45737.jpg';
+import A1983P from '../assets/images/Award/1983/smjoshi.jpg';
+import B1983P from '../assets/images/Award/1983/vv1041.avif';
+import C1983P from '../assets/images/Award/1983/121406.webp';
 
 
 export const TextData = [
+   {
+    id: 43,
+     head:"Shri. Nitin Jairam Gadkari Received Lokmanya Tilak National Award in 2025", 
+    image: [A2025, B2025, C2025, D2025],
+    description:  "Born on May 27, 1957, in Nagpur, Maharashtra, Gadkari began his public life through grassroots social work and student movements before rising to leadership in state and national politics. As Maharashtra’s Public Works Minister, he pioneered projects like the Mumbai–Pune Expressway, India’s first major six-lane concrete toll road, and implemented extensive village road connectivity programs. At the national level, as Minister for Road Transport & Highways, he has championed innovative policies, green energy initiatives, and infrastructure projects that have transformed India’s transport landscape. His visionary leadership and commitment to sustainable development are the reasons he is being honored with this prestigious award.",
+    description2:  "Union Minister Nitin Jairam Gadkari is being honored with the Lokmanya Tilak National Award by the Lokmanya Tilak Memorial Trust in recognition of his transformative work in infrastructure development and nation-building. The award ceremony will be held on August 1 in New Delhi, marking the 104th death anniversary of Lokmanya Tilak. Gadkari has played a pivotal role in expanding India’s road and highway network, improving rural connectivity, and promoting sustainable transport solutions—contributions that align closely with Tilak’s vision of self-reliance and progress.",
+    sections : [
+      {
+        image : [A2025P],
+    subheading:"Where Vision Meets Execution/ When Road Meets Nationhood",
+    para:"Shri. Nitin Jairam Gadkari, born on 27th May 1957 in Nagpur, Maharashtra, hails from a humble Maharashtrian family. He completed his M.Com. and LL.B. and holds a diploma in business management. Known for his visionary approach and bold implementation, he has redefined India’s infrastructure landscape through his deep-rooted commitment to sustainable development and national growth. Gadkari began his political journey through student activism in the Akhil Bharatiya Vidyarthi Parishad (ABVP) and steadily rose through the ranks. He served as the PWD Minister in Maharashtra, where he gained acclaim for building India’s first expressway—the Mumbai-Pune Expressway—well ahead of its time. His efficient, cost-effective models became a blueprint for national development. Currently serving as the Union Minister for Road Transport and Highways, Gadkari is fondly referred to as the “Highway Man of India.” Under his leadership, India has seen an unprecedented expansion of highways, expressways, and green mobility initiatives.",
+    },
+      {
+           image : [B2025P],
+    subheading:"Activism and Contributions",
+    para:"Nitin Gadkari’s impact extends far beyond road building. He has revolutionized infrastructure with an emphasis on speed, scale, and sustainability. Under his guidance, the average pace of highway construction has grown from 12 km/day in 2014 to over 37 km/day in recent years. He has championed green fuels, introducing vehicles powered by ethanol, methanol, hydrogen, and bio-CNG. His efforts to expand India’s Ethanol Blending Program have significantly reduced the country’s fuel import dependency and carbon footprint. Inland waterways have been revived under his watch, providing eco-friendly alternatives to logistics and reducing traffic congestion. Gadkari has also brought reform to the logistics and transport sectors by integrating technology, ensuring transparency, efficiency, and timely execution of mega projects like the Bharatmala, Sagarmala, and Delhi-Mumbai Expressway. He envisions a future where infrastructure is both world-class and environmentally conscious. A progressive agriculturist himself, he has worked extensively in rural development, micro-irrigation, and promoting organic farming. He is also a staunch advocate of innovation-driven entrepreneurship and sustainable industry.",
+    },
+      {
+        image :[C2025P],
+    subheading:"Acknowledgement Speech", 
+    para:"It is a profound honour and privilege to stand here today on the occasion of the Lokmanya Tilak National Award 2025. As we also mark the 105th punyatithi of Lokmanya Tilak, a fearless freedom fighter and one of India’s foremost nation-builders, this moment carries immense historical and emotional significance. The recognition bestowed upon me today is not merely a personal milestone but a reaffirmation of the values I have long held dear—integrity, perseverance, and dedication to public service. I accept this award with humility, pride, and a deep sense of responsibility. Lokmanya Tilak has always been my role model. He taught us that politics should never be reduced to a game of expediency; rather, it should be a noble instrument of nation-building and socio-economic reforms. Leadership, to me, means courage, honesty, and an unwavering sense of duty. It is often said that politics is about lies or flattery, but I firmly reject that notion. A politician must have the courage to speak the truth, even when it brings difficulties. Leaders like the late Balasaheb Thackeray set this example—he always spoke his mind, openly and fearlessly, calling a spade a spade. I have always tried to live by the same principle. ", 
+  },
+ ]
+},
   {
     id: 42,
      head:"Smt. Sudha Murty Received Lokmanya Tilak National Award in 2024", 
     image: [A2024, B2024, C2024, D2024],
-    description: "Author, and Rajya Sabha member Sudha Murty is set to be honored with the Lokmanya Tilak National Award by the Lokmanya Tilak Memorial Trust. The award ceremony will take place on August 1 in New Delhi, commemorating the 104th death anniversary of Lokmanya Tilak.Murty has made significant contributions to rural development, literature, and the social sector, aligning with Lokmanya Tilak's principles of self-reliance. Sudha Murty, co-founder of the Infosys Foundation, has been instrumental in promoting various developmental activities, particularly in rural areas. Her literary work in Marathi, Kannada, and English has raised social awareness.",
-    description2: "Murty has established computer and library facilities in Karnataka government schools, founded the Murty Classical Library of India at Harvard University, and built around 10,000 toilets in rural Karnataka and Bangalore. Born on August 19, 1950, in Shiggaon, Karnataka, Sudha Murty began her career as the first female engineer at Telco. She has worked for Tata companies and was a professor at Christ College in Pune and a visiting professor at Bangalore University.Murty has authored numerous novels and short story collections and received several prestigious awards, including the Padma Shri and Padma Bhushan.",
+    description: "Murty has established computer and library facilities in Karnataka government schools, founded the Murty Classical Library of India at Harvard University, and built around 10,000 toilets in rural Karnataka and Bangalore. Born on August 19, 1950, in Shiggaon, Karnataka, Sudha Murty began her career as the first female engineer at Telco. She has worked for Tata companies and was a professor at Christ College in Pune and a visiting professor at Bangalore University.Murty has authored numerous novels and short story collections and received several prestigious awards, including the Padma Shri and Padma Bhushan.",  
+    description2: "Author, and Rajya Sabha member Sudha Murty is set to be honored with the Lokmanya Tilak National Award by the Lokmanya Tilak Memorial Trust. The award ceremony will take place on August 1 in New Delhi, commemorating the 104th death anniversary of Lokmanya Tilak.Murty has made significant contributions to rural development, literature, and the social sector, aligning with Lokmanya Tilak's principles of self-reliance. Sudha Murty, co-founder of the Infosys Foundation, has been instrumental in promoting various developmental activities, particularly in rural areas. Her literary work in Marathi, Kannada, and English has raised social awareness.",
     sections : [
       {
         image : [A2024P],

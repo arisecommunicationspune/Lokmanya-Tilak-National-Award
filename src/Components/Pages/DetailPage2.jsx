@@ -64,7 +64,7 @@ function DetailPage2() {
                     </h2>
                     <p
                       ref={(el) => (paraRefs.current[index] = el)}
-                      className={`text-base sm:text-lg text-gray-700 leading-relaxed ${
+                      className={`text-base sm:text-lg text-justify text-gray-700 leading-relaxed ${
                         isExpanded ? '' : 'truncate-10-lines'
                       }`}
                     >
@@ -73,7 +73,7 @@ function DetailPage2() {
                     {isOverflowing && (
                       <button
                         onClick={() => toggleExpand(index)}
-                        className="mt-2 text-secondary font-medium wei hover:underline"
+                        className="mt-2 text-secondary text-right font-medium wei hover:underline"
                       >
                         {isExpanded ? 'Read less' : 'Read more'}
                       </button>
@@ -102,12 +102,12 @@ function DetailPage2() {
 
                   {/* Text Right */}
                   <div className="w-full flex-col lg:w-1/2 px-4 mb-auto align-middle m-auto flex">
-                    <h2 className="mb-4 text-3xl sm:text-4xl font-bold text-gray-800">
+                    <h2 className="mb-4 text-3xl text-justify sm:text-4xl font-bold text-gray-800">
                       {section.subheading}
                     </h2>
                     <p
                       ref={(el) => (paraRefs.current[index] = el)}
-                      className={`text-base sm:text-lg text-red-700 leading-relaxed ${
+                      className={`text-base sm:text-lg text-justify text-red-700 leading-relaxed ${
                         isExpanded ? '' : 'truncate-10-lines'
                       }`}
                     >
@@ -116,7 +116,7 @@ function DetailPage2() {
                     {isOverflowing && (
                       <button
                         onClick={() => toggleExpand(index)}
-                        className="mt-2 text-secondary font-medium hover:underline"
+                        className="mt-2 text-secondary text-right font-medium hover:underline"
                       >
                         {isExpanded ? 'Read less' : 'Read more'}
                       </button>

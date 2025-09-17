@@ -11,16 +11,16 @@ const AboutDetail = () => {
       
 
       <div className="flex flex-col lg:flex-row -mx-4 mb-10">
-        <div className="w-full lg:w-50 px-4">
+        <div className="w-full lg:w-45 px-4">
           <img
             src={About}
             alt="Mentor"
             className="w-full  h-auto "
           />
         </div>
-        <div className="hidden lg:block lg:w-5 ">
-        </div>
-        <div className="w-full m-auto lg:w-40 px-4 mb-8 lg:mb-0">
+        {/* <div className="hidden lg:block lg:w-5 ">
+        </div> */}
+        <div className="w-full m-auto lg:w-55 px-4 mb-8 lg:mb-0">
           <h1 className=" md-heading font-bold justify-center text-gray-600 mb-4">
             "Voice of Freedom. Father of National Awakening."
           </h1>

@@ -5,6 +5,7 @@ import {
 
   
 } from "./images";
+import nom43 from "../assets/images/nominee/Nitin-gadhkari.jpg";
 import nom42 from "../assets/images/nominee/Sudha-murthy.jpg";
 import nom41 from "../assets/images/nominee/PM.webp";
 import nom40 from "../assets/images/nominee/Tessy_Thomas.jpg";
@@ -84,6 +85,7 @@ export const breadCrumbItems = [
 
 
 export const topicsData = [
+  { id:43 , logo: nom43, title: "Shri. Nitin Jairam Gadkari" },
   { id:42 , logo: nom42 , title: "Smt. Sudha Murty",}, 
   { id:41 , logo: nom41, title: "Shri. Narendra Damodardas Modi" },
   { id:40 , logo: nom40, title: "Dr. Tessy Thomas" },

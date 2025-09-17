@@ -19,10 +19,10 @@ const Events = () => {
         <div className="flex flex-col items-center justify-center text-center min-h-[300px]">
       
           <p className="text-sm uppercase tracking-widest  mb-2">
-            1st Aug 2025
+            1st Aug 2026
           </p>
           <h4 className="text-3xl md:text-xl mb-4 max-w-3xl m-heading">
-           Stay tuned for this year’s inspiring celebration of legacy and leadership
+           Stay tuned for Next year’s inspiring celebration of legacy and leadership
           </h4>
           <p className="text-base max-w-2xl ">
           The Lokmanya Tilak National Awards celebrate individuals who exemplify the spirit of Bal Gangadhar Tilak — fearless leadership, social reform, and dedication to the nation.
