@@ -1,7 +1,11 @@
-import A2025 from '../assets/images/Award/2025/first.jpg';
-import B2025 from '../assets/images/Award/2025/second.jpg';
-import C2025 from '../assets/images/Award/2025/third.jpg';
+import A2025 from '../assets/images/Award/2025/one.jpg';
+import B2025 from '../assets/images/Award/2025/two.jpg';
+import C2025 from '../assets/images/Award/2025/three.jpg';
 import D2025 from '../assets/images/Award/2025/four.jpg';
+import E2025 from '../assets/images/Award/2025/five.jpg';
+import F2025 from '../assets/images/Award/2025/six.jpg';
+import G2025 from '../assets/images/Award/2025/seven.jpg';
+import H2025 from '../assets/images/Award/2025/eight.jpg';
 import A2025P from '../assets/images/Award/2025/life.jpg';
 import B2025P from '../assets/images/Award/2025/maxresdefault (1).jpg';
 import C2025P from '../assets/images/Award/2025/speech.jpg';
@@ -50,7 +54,7 @@ import C2020P from '../assets/images/Award/2020/img-3.gif';
 import A2019 from '../assets/images/Award/2019/baba_kalyani1.jpeg';
 import C2019 from '../assets/images/Award/2019/baba_kalyani2.jpeg';
 import D2019 from '../assets/images/Award/2019/baba_kalyani3.jpeg';
-import B2019 from '../assets/images/Award/2019/baba_kalyani4.jpg';
+import B2019 from '../assets/images/Award/2019/baba_kalyani4.jpeg';
 import A2019P from '../assets/images/Award/2019/img-1.jpg';
 import B2019P from '../assets/images/Award/2019/img-2.webp';
 import C2019P from '../assets/images/Award/2019/img-3.jpg';
@@ -272,7 +276,7 @@ export const TextData = [
    {
     id: 43,
      head:"Shri. Nitin Jairam Gadkari Received Lokmanya Tilak National Award in 2025", 
-    image: [A2025, B2025, C2025, D2025],
+    image: [A2025, B2025, C2025, D2025, E2025, F2025, G2025, H2025],
     description:  "Born on May 27, 1957, in Nagpur, Maharashtra, Gadkari began his public life through grassroots social work and student movements before rising to leadership in state and national politics. As Maharashtra’s Public Works Minister, he pioneered projects like the Mumbai–Pune Expressway, India’s first major six-lane concrete toll road, and implemented extensive village road connectivity programs. At the national level, as Minister for Road Transport & Highways, he has championed innovative policies, green energy initiatives, and infrastructure projects that have transformed India’s transport landscape. His visionary leadership and commitment to sustainable development are the reasons he is being honored with this prestigious award.",
     description2:  "Union Minister Nitin Jairam Gadkari is being honored with the Lokmanya Tilak National Award by the Lokmanya Tilak Memorial Trust in recognition of his transformative work in infrastructure development and nation-building. The award ceremony will be held on August 1 in New Delhi, marking the 104th death anniversary of Lokmanya Tilak. Gadkari has played a pivotal role in expanding India’s road and highway network, improving rural connectivity, and promoting sustainable transport solutions—contributions that align closely with Tilak’s vision of self-reliance and progress.",
     sections : [
